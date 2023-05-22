@@ -1,2 +1,2 @@
-# ANN_Project
+git # ANN_Project
 Implementation of Korean Sign Language Translation Model with MediaPipe
