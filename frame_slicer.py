@@ -22,7 +22,7 @@ def save_frames(video_path, output_dir):
 
     frame_num = 0
     while success:
-        if frame_num % int(fps / 24) == 0:  # 30프레임으로 잘라서 저장
+        if frame_num % int(fps / 24) == 0:  # 24프레임으로 잘라서 저장
             frame_path = f"{output_dir}/frame_{frame_num}.jpg"
             cv2.imwrite(frame_path, frame)
 
