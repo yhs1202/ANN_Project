@@ -29,7 +29,7 @@ def save_frames(video_path, output_dir):
         success, frame = cap.read()
         frame_num += 1
     cap.release()
-    print(f"Frames saved to {output_dir}.")
+    print(f"{frame_num} Frames saved to {output_dir}.")
 
 
 if __name__ == '__main__':
