@@ -45,14 +45,16 @@ def process_images_in_folder(folder_path):
         # 이미 CSV 파일이 존재하면 기존 파일에 데이터를 추가
         existing_data = np.genfromtxt(csv_path, delimiter=",", skip_header=1)
         combined_data = np.concatenate((existing_data, data_array), axis=0)
-        header = "x_0,y_0,z_0,x_1,y_1,z_1,...,x_20,y_20,z_20"  # 열 이름을 적절히 수정해주세요
-        np.savetxt(csv_path, combined_data, delimiter=",", header=header, comments="")
+        # header = "x_0,y_0,z_0,x_1,y_1,z_1,...,x_20,y_20,z_20"  # 열 이름을 적절히 수정해주세요
+        np.savetxt(csv_path, combined_data, delimiter=",", comments="")
     else:
         # CSV 파일이 존재하지 않으면 새로 파일을 생성
-        header = "x_0,y_0,z_0,x_1,y_1,z_1,...,x_20,y_20,z_20"  # 열 이름을 적절히 수정해주세요
-        np.savetxt(csv_path, data_array, delimiter=",", header=header, comments="")
+        # header = "x_0,y_0,z_0,x_1,y_1,z_1,...,x_20,y_20,z_20"  # 열 이름을 적절히 수정해주세요
+        np.savetxt(csv_path, data_array, delimiter=",", comments="")
 
     print("손 부분 관절 데이터가 성공적으로 저장되었습니다.")
 
-folder_path = "C:/Users/HELLO WORLD/Desktop/project/image"
-process_images_in_folder(folder_path)
+
+if __name__ == '__main__':    
+    folder_path = "/Users/hsyoon/Downloads/img/"
+    process_images_in_folder(folder_path)
