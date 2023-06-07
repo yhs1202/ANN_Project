@@ -28,9 +28,8 @@ pip install -r requirements.txt
 
 
 <figure><img width="745" alt="1" src="https://github.com/yhs1202/ANN_Project/assets/50286291/8dc69f0a-2e64-4842-a628-ced09c8b7903"> 
-<figcaption>
-    데이터 설명서 및 구축 활용 가이드
-</figcaption></figure>
+
+</figure>
 </br>
 
 ![2](https://github.com/yhs1202/ANN_Project/assets/50286291/99dcf612-a2c2-4f30-b688-4517f1c26652)
@@ -40,6 +39,8 @@ pip install -r requirements.txt
 
 <img width="313" alt="6" src="https://github.com/yhs1202/ANN_Project/assets/50286291/00e46ee1-21dd-4744-8a21-227ab9f7fae2">
 
+
+<img width="634" alt="123" src="https://github.com/yhs1202/ANN_Project/assets/50286291/f06fdc82-5846-4c3a-861e-11405235a677">
 
 </br></br></br>
 
