@@ -10,7 +10,7 @@ def extract_hand_landmarks(image_path):
 
     # MediaPipe를 사용하여 손 부분의 관절 추출
     mp_hands = mp.solutions.hands
-    hands = mp_hands.Hands(static_image_mode=True, max_num_hands=2)
+    hands = mp_hands.Hands(static_image_mode=True, max_num_hands=1) # 손 하나만 인식
     results = hands.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
     # 추출한 관절 데이터를 배열로 변환
@@ -31,7 +31,7 @@ def process_images_in_folder(folder_path):
     # 폴더 내의 이미지 파일들을 순회하며 관절 데이터 추출
     all_landmarks = []
     for filename in os.listdir(folder_path):
-        if filename.endswith(".jpg") or filename.endswith(".png"):
+        if filename.endswith(".jpg") or filename.endswith(".png") or filename.endswith(".jpeg"):
             image_path = os.path.join(folder_path, filename)
             landmarks = extract_hand_landmarks(image_path)
             if landmarks is not None:
@@ -58,3 +58,6 @@ def process_images_in_folder(folder_path):
 if __name__ == '__main__':    
     folder_path = "/Users/hsyoon/Downloads/img/"
     process_images_in_folder(folder_path)
+    # path = '/Users/hsyoon/Downloads/img/hand_landmarks.csv'
+    # csv = np.loadtxt(path, delimiter=",")
+    # print(csv.shape)
