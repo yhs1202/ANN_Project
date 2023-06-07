@@ -21,7 +21,34 @@ pip install -r requirements.txt
 
 ## Collecting Datasets
 ---
-fill me
+
+
+
+
+
+
+<figure><img width="745" alt="1" src="https://github.com/yhs1202/ANN_Project/assets/50286291/8dc69f0a-2e64-4842-a628-ced09c8b7903"> 
+<figcaption>
+    데이터 설명서 및 구축 활용 가이드
+</figcaption></figure>
+</br>
+
+![2](https://github.com/yhs1202/ANN_Project/assets/50286291/99dcf612-a2c2-4f30-b688-4517f1c26652)
+
+![3](https://github.com/yhs1202/ANN_Project/assets/50286291/d4d7227d-aafa-4ceb-8bd1-ff7fdc1a5e16)
+
+
+<img width="313" alt="6" src="https://github.com/yhs1202/ANN_Project/assets/50286291/00e46ee1-21dd-4744-8a21-227ab9f7fae2">
+
+
+</br></br></br>
+
+- ## Example with 3 images
+
+<img width="822" alt="4" src="https://github.com/yhs1202/ANN_Project/assets/50286291/15bcf876-0d82-44d0-995e-4b7a3af7119e">
+
+<img width="1325" alt="5" src="https://github.com/yhs1202/ANN_Project/assets/50286291/b87db200-fabf-4377-a527-8b6be4039ea1">
+
 
 ## Trained model architecture
 ---
