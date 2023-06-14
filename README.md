@@ -21,6 +21,38 @@ pip install -r requirements.txt
 
 ## Collecting Datasets
 ---
+```
+dataset (6600 images) (train:5940 / test:660)
+│ 
+├── 자음 (300*14 = 4200 images)
+│   ├── ㄱ (300 images)
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   ├── ㄴ (300 images)
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   ├── ㄷ (300 images)
+│   │   ├── image1.jpg
+│   │   ├── image2.jpg
+│   │   └── ...
+│   └── ...
+└── 모음 (200*12 = 2400 images)
+    ├── ㅏ (200 images)
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    ├── ㅑ (200 images)
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    ├── ㅓ (200 images)
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    └── ...
+```
 
 <img width="745" alt="1" src="https://github.com/yhs1202/ANN_Project/assets/50286291/8dc69f0a-2e64-4842-a628-ced09c8b7903"> 
 
