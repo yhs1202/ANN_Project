@@ -90,14 +90,6 @@ dataset (6600 images) (train:5940 / test:660)
 
 </br></br>
 
-## Trained model architecture
----
-fill me
-
-## Running Code
----
-fill me
-
 ## Results
 ---
 ![제목 없음](https://github.com/user-attachments/assets/b7d048ab-fbc4-4965-8433-22d118bde277)
